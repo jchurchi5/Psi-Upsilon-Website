@@ -41,7 +41,7 @@ body {
 }
 
 body {
-	background: #0F1215;
+	background: #0F1215; /* garnet color code #73000A */
 	font: 16px/30px "merriweather-regular", serif;
 	font-weight: normal;
 	color: #575859;
@@ -639,7 +639,7 @@ header {
 	
 }
 header.opaque {
-	background: black;
+	background: #73000A; /*black;*/
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -667,8 +667,8 @@ header .logo a {
 	color: transparent;
 	width: 114px;
 	height: 66px;
-	background: url("../images/logoK@2x.png") no-repeat center;
-	background-size: 61px 14px;
+	background: url("../images/letters.png") no-repeat center;
+	background-size: 100px 100px;
 }
 
 /* header social */
@@ -967,7 +967,7 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #hero {
-	background: #0F1215 url(../images/hero-bg.jpg) no-repeat center;
+	background: #0F1215 url(../images/PsiU/home.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1258,7 +1258,7 @@ ul#nav li.current a:after {
 	height: 54px;
 	width: 200px;
 	border-radius: 3px;
-	background: #e64e04;
+	background: #A9A9A9; /*#73000A; /*#e64e04;*/
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
 	color: #FFFFFF;
 	-moz-transition: all 0.4s ease-on-out;
@@ -1293,7 +1293,7 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #portfolio {
-	background: #111417;
+	background: #73000A; /*#111417;*/
 	padding-top: 120px;
 	border-bottom: 1px solid #15191d;  
 }
@@ -1355,7 +1355,7 @@ ul#nav li.current a:after {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(0, 0, 0, 0.85);
+	background: rgba(115, 0, 10, 0.85);
 	filter: alpha(opacity=0);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	opacity: 0;
@@ -1654,7 +1654,7 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #services {
-	background: #12151B;
+	background: #73000A; /*#12151B;*/
 	padding-top: 120px;
 	padding-bottom: 120px;
 	border-bottom: 1px solid #15191d;
@@ -1738,7 +1738,7 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #about {
-	background: #111417;
+	background: #73000A; /*#111417;*/
 	padding-top: 120px;
 	padding-bottom: 120px;
 	border-bottom: 1px solid #15191d;
@@ -2110,7 +2110,7 @@ ul#nav li.current a:after {
 
 #testimonials .flex-control-paging li a.flex-active {
 	background: #fff;
-	background: black;
+	background: #73000A; /*black;*/
 	cursor: default;
 }
 
