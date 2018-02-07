@@ -35,7 +35,7 @@
 	      controlNav: true,
 	      directionNav: false,
 	      smoothHeight: true,
-	      slideshowSpeed: 7000,
+	      slideshowSpeed: 10000,
 	      animationSpeed: 600,
 	      randomize: false,
 	      before: function(slider){
@@ -64,7 +64,7 @@
 	      controlNav: true,
 	      directionNav: false,
 	      smoothHeight: true,
-	      slideshowSpeed: 7000,
+	      slideshowSpeed: 10000,
 	      animationSpeed: 600,
 	      randomize: false,
 	   });
