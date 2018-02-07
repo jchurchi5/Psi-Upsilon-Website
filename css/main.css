@@ -967,7 +967,7 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #hero {
-	background: #0F1215 url(../images/PsiU/home.jpg) no-repeat center;
+	background: #0F1215 url(../images/PsiU/nicehouse.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1654,7 +1654,7 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #services {
-	background: #73000A; /*#12151B;*/
+	background: #fdc501; /*#12151B;*/
 	padding-top: 120px;
 	padding-bottom: 120px;
 	border-bottom: 1px solid #15191d;
@@ -2180,7 +2180,7 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #contact {
-	background: #12151B;
+	background: #73000A; /*#12151B;*/
 	padding-top: 120px;
 	padding-bottom: 138px;
 	overflow: hidden;
