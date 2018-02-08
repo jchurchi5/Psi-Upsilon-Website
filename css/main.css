@@ -129,15 +129,17 @@ h6 {
 
 p {
 	margin: 15px 0 15px 0;
+	color: white;
 }
 
 p img {
 	margin: 0;
+	color: white
 }
 
 p.lead {
 	font: 20px/36px "merriweather-light", serif;
-	color: #707273;
+	color: white;
 }
 
 em {
@@ -313,33 +315,58 @@ img.pull-left {
 /* block grids default paddings 
 --------------------------------------------------------------------- */
 .bgrid {
-	padding: 0 20px;
+	/*padding: 0 20px;*/
+	width: 50%; /*can be in percentage also.*/
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
 }
 
 @media only screen and (max-width:1024px) {
 	.bgrid {
-		padding: 0 18px;
+		/*padding: 0 18px;*/
+		width: 50%; /*can be in percentage also.*/
+    	height: auto;
+    	margin: 0 auto;
+    	padding: 10px;
+    	position: relative;
 	}
 
 }
 
 @media only screen and (max-width:768px) {
 	.bgrid {
-		padding: 0 15px;
+		/*padding: 0 15px;*/
+		width: 50%; /*can be in percentage also.*/
+    	height: auto;
+    	margin: 0 auto;
+    	padding: 10px;
+    	position: relative;
 	}
 
 }
 
 @media only screen and (max-width:600px) {
 	.bgrid {
-		padding: 0 10px;
+		/*padding: 0 10px;*/
+		width: 50%; /*can be in percentage also.*/
+    	height: auto;
+    	margin: 0 auto;
+    	padding: 10px;
+    	position: relative;
 	}
 
 }
 
 @media only screen and (max-width:400px) {
 	.bgrid {
-		padding: 0;
+		/*padding: 0;*/
+		width: 50%; /*can be in percentage also.*/
+    	height: auto;
+    	margin: 0 auto;
+    	padding: 10px;
+    	position: relative;
 	}
 
 }
@@ -1846,7 +1873,7 @@ ul#nav li.current a:after {
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 18px;
-	color: #969696;
+	color: white;
 	margin: 0;
 	padding: 0;
 }
@@ -2446,7 +2473,7 @@ footer .content {
 
 footer a,
 footer a:visited {
-	color: #a3a4a6;
+	color: white;
 }
 
 footer a:hover,
@@ -2469,6 +2496,7 @@ footer .info {
 	margin: 42px auto 36px;
 	text-align: center;
 	clear: both;
+	color: white;
 }
 
 footer .footer-logo {
@@ -2492,6 +2520,7 @@ footer .copyright {
 	font: 14px/24px "raleway-medium", sans-serif;
 	letter-spacing: .5px;
 	text-align: center;
+	color: white;
 }
 
 footer .copyright li {
