@@ -1530,6 +1530,34 @@ ul#nav li.current a:after {
 	vertical-align: bottom;
 }
 
+.popup-modal .btn {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.popup-modal .butn {
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.popup-modal .btn:hover {
+  background-color: black;
+}
+
 /* description */
 .popup-modal .description-box {
 	padding: 6px 36px 30px;
@@ -1572,7 +1600,7 @@ ul#nav li.current a:after {
 	display: block;
 	text-align: center;
 	float: left;
-	width: 50%;
+	width: 100%;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
