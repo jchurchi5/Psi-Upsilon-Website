@@ -1713,6 +1713,14 @@ ul#nav li.current a:after {
 	border-bottom: 1px solid #15191d;
 }
 
+.twelve_columns h1{
+	color: #73000A;
+}
+
+.twelve_columns p{
+	color: #000000;
+}
+
 .service-list {
 	margin: 18px -2px 0;
 }
@@ -1748,6 +1756,10 @@ ul#nav li.current a:after {
 	text-transform: none;
 	text-align: left;
 	margin-bottom: 6px;
+}
+
+#services .service-list p {
+	color: #000000;
 }
 
 /* media queries:  
