@@ -1047,8 +1047,8 @@ ul#nav li.current a:after {
 }
 
 #hero-slider .slides .flex-caption h3 {
-	font: 18px/1.9 "merriweather-light", sans-serif;
-	color: rgba(255, 255, 255, 0.7);
+	font: 18px/1.9 "merriweather-bold", sans-serif;
+	color: #ffffff;/*rgba(255, 255, 255, 0.7);*/
 	text-shadow: 0 1px 15px rgba(0, 0, 0, 0.5);
 	width: 85%;
 	margin-top: 24px;    
@@ -1743,7 +1743,7 @@ ul#nav li.current a:after {
 
 #services .service-list h3 {
 	font: 18px/36px "raleway-heavy", sans-serif;
-	color: #fdc501;
+	color: #73000A;
 	padding: 0;
 	text-transform: none;
 	text-align: left;
