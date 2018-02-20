@@ -765,69 +765,6 @@
    ================================================== -->
    <section id="about">
 
-   <!--
-    <div class="row section-head">
-
-        <div class="twelve columns">
-
-          <h1></h1>
-
-           <hr />           
-
-           <p>Since our chapter’s reactivation in 2013, we have adopted a single-tiered membership policy. This policy has eliminated all forms of hazing and a pledge process altogether. Our philosophy is that no member should have any higher status than another. The implementation of this policy has resulted not only in greater interest from students, but also a closer relationship between classes of brothers within the fraternity. Our single-tiered membership philosophy has been recognized by our national office and our university as the future of Greek Life. 
-           </p>
-
-        </div> <!-- end section-head -->
-
-      <!--</div>
-
-      <!--
-
-      <div class="row mobile-no-padding">         
-
-        <div class="process bgrid-half tab-bgrid-whole group">
-
-          <div class="bgrid">
-
-            <h3>Academics</h3> 
-
-            <p>Above all else, we understand that we are students first. This is reflected in the academic success of our chapter. Our members include several Liberty League All Academic Team and University Dean’s List recipients. We consistently rank among the top Greek organizations at Rochester for academics and our cumulative GPA is consistently higher than the All-Men’s Average at the university. This has led to numerous awards from our university and our national office. 
-            </p>
-
-        </div>
-
-          <div class="bgrid">
-
-            <h3>Extracurricular Activities</h3>
-
-            <p>We require that all members be involved in at least two extracurricular activities outside of the fraternity. This has led to a highly diverse group of men who, collectively, have involved themselves in more than 30 unique extracurricular activities on campus. These activities range from varsity/club sports and service clubs to pre-professional societies and academic research. 
-          </p>  
-
-          </div> 
-
-          <div class="bgrid">
-
-            <h3>Membership Development</h3>  
-
-            <p>Because of our single-tiered membership policy, we seek to build brotherhood unity in other ways besides pledging. This often comes in the form of retreats, brotherhood dinners, movie nights, and other similar events. We have proven that pledging and hazing are not necessary to learn the history of our fraternity or build friendships. 
-            </p>
-
-          </div>
-
-          <div class="bgrid">
-
-            <h3>Philanthropy</h3>
-
-            <p>With membership fluctuating between 40 and 50 brothers, we have recently averaged approximately 200-250 hours of community service per semester. This is largely a result of the efforts of our active local alumni and our philanthropy committee. Some of our most popular annual philanthropy events include Psi-Ushi, where we bring a sushi chef and sumo wrestling into our main student center, and Psi-Uperbowl, a flag football game between campus sororities. All funds raised from events such as these are donated to local or national charities. 
-            </p>  
-
-          </div>
-
-        </div> <!-- end process -->       
-
-      <!--</div> <!-- end row -->
-
-
       <div class="row team section-head">
 
       <div class="twelve columns">
@@ -848,7 +785,7 @@
             <div class="bgrid member">
 
               <div class="member-pic">
-                <img src="images/team/lisi.png" alt=""/>
+                <img src="images/team/john.jpg" alt=""/>
                 <div class="mask"><h5>Major:<br>Biomedical Engineering<br><br><br>Camillus, NY</h5></div>        
               </div>
               <div class="member-name">
@@ -1578,10 +1515,30 @@
       </div> <!-- end section-head -->
 
       <div class="row">
-        
+
+        <div id="contact-form" class="six columns tab-whole left">
+
+
+        <form action="mailto:jchurchi@u.rochester.edu.com?subject=$subject" method="post" enctype="text/plain">
+        Name:<br>
+        <input type="text" name="name" required="true" minlength="2">
+        E-mail:<br>
+        <input type="text" name="mail" required="true">
+        Subject:<br>
+        <input type="text" name="subject" required="true">
+        Comment:<br>
+        <textarea name="comment" required="true" rows="10" cols="50" minlength="5"></textarea><br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+        </form>
+
+        </div>
+
+        <!--
         <div id="contact-form" class="six columns tab-whole left">
 
             <!-- form -->
+            <!--
             <form name="contactForm" id="contactForm" method="post" action=""  >
             <fieldset>
 
@@ -1613,13 +1570,15 @@
           </form> <!-- Form End -->
 
             <!-- contact-warning -->
+            <!--
             <div id="message-warning"></div>
             <!-- contact-success -->
+            <!--
           <div id="message-success">
                <i class="icon-ok"></i>Your message was sent, thank you!<br />
           </div>
 
-         </div>
+         </div>-->
 
          <div class="six columns tab-whole right">
 
